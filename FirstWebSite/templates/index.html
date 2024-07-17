@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dere Shiracc</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="https://kit.fontawesome.com/823755118e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#" id="navbar_logo">Dere Shiracc</a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li id="navbar_item">
+                    <a href="#" class="navbar_links" id="home-page">Inicio</a>
+
+                <li id="navbar_item">
+                    <a href="#about" class="navbar_links" id="about-page">Sobre</a>
+
+                <li id="navbar_btn">
+                    <a href="#works" class="button" id="Trabalhos-page">Trabalhos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero" id="home">
+        <div class="hero_container">   
+            <h1 class="hero_heading">Não são meras<span> ideias,</span></h1>
+            <p class="hero_description">São possibilidades!</p>
+            <button class="main_btn"><a href="#about">Explorar</a></button>
+            <div class="space"></div>
+            <div class="scroll-down-icon"></div>
+        </div>
+    </div>
+
+    <!-- Sobre -->
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_img_container">
+                <div class="main_img_card"><i class="fa-solid fa-address-book"></i></div>
+            </div>
+            <div class="main_content">
+                <h1>Quem sou eu?</h1>
+                <h2>Um empenhado progamador.</h2>
+                <p>Tenho foco em desenvolvimento de aplicações, e tenho como hobbie a escrita, desde histórias fantasiosas até temas mais pesados no mundo imaginário. <br><br>Você pode acompanhar todos os meus projetos de apps e livros por esse site.</p>
+                <button class="main_btn"><a href="#works">Trabalhos</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trabalhos -->
+    <div class="works" id="works">
+        <h1>Meus trabalhos</h1>
+        <div class="works_wrapper">
+            <div class="works_card">
+                <h2>Project Immortal</h2>
+                <p>Uma história de fantasia</p>
+
+                <div class="works_btn">
+                    <button><a href="../static/project/main-page.html">Ler história</a></button>
+                </div>
+            </div>
+
+            <div class="works_card">
+                <h2>DotWallet</h2>
+                <p>Um app para ajudar a manter seus gastos mensais levando em consideração os seus sonhos de consumo.</p>
+
+                <div class="works_btn"><button><a href="/dotWallet/">Ver app</a></button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="contact" id="contact">
+        <div class="footer_container">
+            <div class="footer_img_container">
+                <div class="footer_img_card"><i class="fa-brands fa-instagram"></i>
+                <h2>@dereshiracc</h2></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Extra Menu -->
+
+    <script src="../static/app.js"></script>
+</body>
+</html>
