@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+    background: #201F26;
+}
+
+@font-face {
+    font-family: "HeroFont";
+    src: url("/fonts/hero-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HeroFontBold";
+    src: url("/fonts/hero-Bold.ttf") format("truetype");
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+    color: #fff;
+    padding: 0 auto;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.selector .page_move_f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #000000;
+    font-size: 4rem;
+    background-color: #b21313;
+    background-image: linear-gradient(to left, #4000A1 0%, #50ACDE 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.selector .page_move_b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #000000;
+    font-size: 4rem;
+    background-color: #b21313;
+    background-image: linear-gradient(to left, #4000A1 0%, #50ACDE 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    transform: rotate(180deg) translateY(-6px);
+}
+
+.selector a {
+    font-size: 24px;
+    background: #4000A1;
+    background: -webkit-linear-gradient(to right, #4000A1, #4C62F5);
+    background: linear-gradient(to right, #50ACDE, #4CF5D6, #49EB73);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "HeroFont";
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.title h1 {
+    font-family: "HeroFontBold";
+    font-size: 2.5rem;
+    background: #4000A1;
+    background: -webkit-linear-gradient(to right, #4000A1, #4C62F5);
+    background: linear-gradient(to right, #4000A1 0%, #4C62F5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    font-family: HeroFontBold;
+    font-size: 2rem;
+}
+
+.main_text p {
+    font-family: 'Georgia', serif;
+    color: #C2C1C5;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+
+.main_text .sub_title {
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.main_text .magic {
+    font-family: 'Georgia',serif;
+    color: #4000A1;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.main_text .discord {
+    font-family: 'Georgia',serif;
+    color: #5895ff;
+    font-size: 1.6rem;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.main_text .italic {
+    font-family: 'Georgia',serif;
+    font-style: italic;
+    color: #C2C1C5;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+
+.main_text_ex {
+    font-family: 'Georgia',serif;
+    color: #C2C1C5;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+
+.main_text_ex .discord {
+    font-family: 'Georgia', serif;
+    color: #5895ff;
+    font-size: 1.6rem;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.main_text_ex .italic {
+    font-family: 'Georgia',serif;
+    font-style: italic ;
+    color: #C2C1C5;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
