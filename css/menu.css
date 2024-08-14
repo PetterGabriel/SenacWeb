@@ -1,0 +1,89 @@
+/** Configuração da DIV do menu principal id = "menu" 
+**************************************************************************************/
+
+#menu {
+
+    /** Tamanho **/
+    width: 100%;
+	height: 30px;
+
+    /** Cor do fundo **/
+    background-color: rgb(137,33,20);
+}
+
+
+/** Configura a lista ordenada que compõe o menu 
+**************************************************************************************/
+
+.listaMenu {
+    
+    /** Largura **/
+    width: 550px;
+
+    /** Posicao  **/
+    position: relative;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: 7px;
+}
+
+
+/** Configura os elementos li do menu com a classe "listaMenu" 
+**************************************************************************************/
+
+.listaMenu li {
+
+    /** Mantém os elementos em uma linha **/
+    display: inline-block;
+}
+
+
+/** Configura os elementos li a com a classe "listaMenu" 
+**************************************************************************************/
+
+.listaMenu li a {
+
+    /** Remove o sublinhado de links **/
+    text-decoration: none;
+
+    /** Configura o tamanho de 50px para os itens de link da lista **/
+    height: 50px;
+
+    /** Posicionamento**/
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/** Configura os elementos li a quando estão normal e depois de clicados 
+**************************************************************************************/
+
+.listaMenu li a:link,
+.listaMenu li a:visited {
+
+    /** Muda a cor do texto dos links para branco **/
+    color: white;
+}
+
+/** Configura os elementos li a quando o mouse passa em cima 
+**************************************************************************************/
+
+.listaMenu li a:hover {
+
+    /** Muda a cor do link **/
+    color: rgb(210,165,108);
+}
+
+/** Configura o link com id "menuAtual" 
+**************************************************************************************/
+
+#menuAtual:link,
+#menuAtual:visited {
+
+    /** Muda estilo para letra maiúscula **/
+    text-transform: uppercase;
+
+    /** Deixa a fonte em negrito **/
+    font-weight: bold;
+}

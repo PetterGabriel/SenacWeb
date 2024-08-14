@@ -1,0 +1,85 @@
+/** Configuração da DIV com id tituloConteudo
+**************************************************************************************/
+
+#tituloConteudo {
+    /** Define a cor **/
+    color: rgb(135,33,20);
+        
+    /** Alinha ao centro **/
+    text-align: center;
+    
+    /** Reduz a margem inferior **/
+    margin-bottom: 10px;
+}
+
+
+/** Configuração da tabela dentro da DIV com id "areaProdutos" 
+**************************************************************************************/
+
+#areaProdutos table {
+    /** Espaço entre as células **/    
+    border-spacing: 25px;
+    border-collapse: separate;
+
+    /** Alinha ao centro **/
+    text-align: center;
+}
+
+
+/** Configuração da td da tabela com id "areaProdutos" 
+**************************************************************************************/
+
+#areaProdutos td {    
+
+    /** Largura das células **/
+    width: 250px;
+    
+    /** Cor do texto   **/
+    color: rgb(135,33,20);
+
+    /** Tamanho de fonte   **/
+    font-size: 20px;
+}
+
+
+/** Configuração das imagens da area de produtos 
+**************************************************************************************/
+
+#areaProdutos td img {
+
+    /** Configura um tamanho padrão para as imagens dos produtos **/
+    width: 150px;
+    height: 150px;
+
+    /** Separa a imagem do título acima desta **/
+    margin-top: 5px;
+
+    /** Arredonda as fotos **/
+    border-radius: 30%;
+    
+    /** Borda da foto  **/
+    border: 2px solid rgb(135,33,20);
+}
+
+
+/** Configuração dos elementos anotados com a classe "tituloProduto" 
+**************************************************************************************/
+
+.tituloProduto {
+    
+    /** Faz com que a fonte do elemento fique em negrito **/
+    font-weight: bold;
+    
+    /** Remove a margem padrão dos elementos P **/
+    margin: 0;
+}
+
+
+/** Seleciona elementos anotados com a classe "precoProduto" 
+**************************************************************************************/
+
+.precoProduto {
+
+    /** Remove a margem padrão dos elementos P **/
+    margin: 0;
+}

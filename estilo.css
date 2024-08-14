@@ -1,0 +1,89 @@
+
+/** Seleciona a div com o íncone e o telefone de entrega (id "entrega") **/
+#entrega {
+
+    /** Configura o posicionamento como fixo. Desta forma, o elemento
+    ficará posicionado sempre relativo a área da tela do browser (viewport) **/
+    position: fixed;
+
+    /** Posiciona o elemento 30px em relação a margem inferior **/
+    bottom: 30px;
+
+    /** Posiciona o elemento 10px em relação a margem direita **/
+    right: 10px;
+
+    /** Define um tamanho para o elemento **/
+    height: 100px;
+    width: 300px;
+}
+
+/** Seleciona os elementos de imagem com id "entrega" **/
+#entrega img {
+
+    /** Transforma o elemento num círculo **/
+    border-radius: 50%;
+
+    /** Define uma borda para o elemento **/
+    border: 3px solid #40A837; 
+}
+
+/** Seleciona elementos com id "tel" **/
+#tel {
+
+    /** Posição absoluta **/
+    position: absolute;
+
+    /** Posição horizontal   **/
+    left: 120px;
+
+    /** Altura   **/
+    height: 75px;
+
+    /** Cor de fundo  **/
+    background-color: #40A837;
+
+    /** Cor do texto   **/    
+    color: white;
+
+    /** Afasta o elemento do topo em 13px **/
+    margin-top: 13px;
+
+    /** Adiciona borda interna ao elemento no tamanho de 10px **/
+    padding: 10px;
+
+    /** Remove a borda interna da parte inferior  **/
+    padding-bottom: 0;
+
+    /** Arredonda um pouco os cantos da div **/
+    border-radius: 15px;
+}
+
+/** Pega os elementos h4 com id "tel" **/
+#tel h4 {
+
+    /** Remove as margens padrão do H4 **/
+    margin: 0;
+
+    /** Define um tamanho de fonte para o H4 em 28px **/
+    font-size: 28px;
+}
+
+/** Pega os elementos h5 com id "tel" **/
+#tel h5 {
+
+    /** Remove as margens padrão do H5 **/
+    margin: 0;
+
+    /** Adiciona uma pequena margem na parte superior do h5 **/
+    margin-top: 10px;
+}
+
+/** Pega o elemento a com id "tel" **/
+#tel a {
+
+    /** Define a cor do link como branco **/
+    color: white;
+
+    /** Remove o underline do link **/
+    text-decoration: none;
+} 
